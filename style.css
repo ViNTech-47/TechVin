@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    box-sizing: border-box;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    /* background-image: url(bg.jpg);     */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    font-family: 'Share Tech', sans-serif;    
+}
+body::before{
+    background: url(bg.jpg) no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+/* header content */
+.heading{
+    /* border: 1px solid yellow;     */
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 13vh;
+}
+.left{    
+    display: inline-block;
+    top: 0px;
+    left: 10px;
+    position: absolute;    
+}
+.left a{
+    text-decoration: none;
+}
+.left .logo{    
+    text-align: center;   
+} 
+.left .logo img{    
+    height: 50px;
+    filter: invert(100%);   
+} 
+.left h4{
+    text-align: center;    
+}
+.mid{    
+    width: 60%;
+    display: block;
+    margin: 25px auto;
+    text-align: center;
+}
+.right{        
+    display: inline-block;
+    top: 15px;
+    right: 10px;
+    position: absolute;
+}
+.right .btn{    
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgb(27, 24, 226);
+    font-family: 'Share Tech', 'sans-serif';    
+}
+.right .btn:hover{        
+    background-color: rgb(207, 160, 160);
+}
+.navbar{
+    list-style: none;
+    display: inline-block;
+}
+.navbar li{    
+    display: inline-block;    
+}
+.navbar li a{
+    text-decoration: none;
+    /* color: rgb(243, 86, 86); */
+    padding: 20px 20px;
+    font-size: 22px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(152, 77, 77);    
+}
+.content{
+    /* border: 1px solid red; */
+    height: 83vh;
+}
+.promo{
+    /* border: 1px solid blue; */
+    width: 75%;    
+    position: absolute;
+    align-items: center;
+    text-align: center;
+}
+.promo .texthead{
+    /* border: 1px solid red;     */
+    font-size: 4.2rem;
+    color: rgb(2, 255, 87);
+    font-weight: bold;    
+    padding: 0px 12rem;
+}
+.promo .promotext{
+    /* border: 1px solid red; */
+    font-size: 1.2rem; 
+    color: rgb(0, 255, 149); 
+    text-align: center;    
+    padding: 1px 5rem;
+}
+
+#contactus{
+    /* border: 2px solid rgb(214, 141, 141); */
+    margin: auto;
+    right: 0px;
+    height: 400px;    
+    width: 25vw;
+    margin-right: 0px;    
+    
+}
+.details input{
+    background: none;
+    width: 300px;
+    padding: 2px 0px;
+    margin: 5px 0px;
+    font-size: 18px;
+    border-width: 1px;
+    border-bottom-style:solid ;
+    border-top-style: none ;
+    border-left-style: none ;
+    border-right-style: none ;
+}
+textarea{
+    background: #283b71;
+    width: 300px;
+    padding: 2px 0px;
+    margin: 5px 0px;
+    font-size: 15px;
+    border-style:solid ;    
+}
+
+#submit{
+    width: 300px;
+    display: block;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #a2a2a2;
+    border-radius: 5px;
+    /* border: 2px solid tomato; */
+}
+#submit:hover{
+    color: #ffffff;
+    background-color: #b65454;
+    /* border: 2px solid tomato; */
+}
+
+/* Footer content  */
+footer {
+    /* border: 1px solid green;     */
+    padding: auto;
+    text-align: center;
+    height: 4vh;
+}
+footer a{
+    text-decoration: none;
+    color: #fd0000;
+}
